@@ -4,8 +4,8 @@ header("Cache-Control: no-cache");
 header("Expires: 0");
 
 // following files need to be included
-require_once("./lib/config_paytm.php");
-require_once("./lib/encdec_paytm.php");
+require_once("./config_paytm.php");
+require_once("./encdec_paytm.php");
 
 $paytmChecksum = "";
 $paramList = array();
