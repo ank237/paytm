@@ -16,7 +16,7 @@ $CHANNEL_ID = "WEB";
 $TXN_AMOUNT = $_POST["TXN_AMOUNT"];
 
 
-$CALLBACK_URL = "https://run-in-game.000webhostapp.com/pgResponse.php";
+$CALLBACK_URL = "http://custom-oasis-277706.appspot.com/pgResponse.php";
 
 
 $paramList["MID"] = PAYTM_MERCHANT_MID;
