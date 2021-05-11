@@ -35,7 +35,7 @@ $checkSum = getChecksumFromArray($paramList,PAYTM_MERCHANT_KEY);
 <html>
 <body>
     <center><h1>Please do not refresh this page...</h1></center>
-        <form method="post" action="<?php echo PAYTM_TXN_URL ?>" name="f1">
+        <form method="post" action="https://securegw-stage.paytm.in/order/process" name="f1">
         <table border="1">
             <tbody>
             <?php
