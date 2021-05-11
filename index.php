@@ -3,8 +3,8 @@ header("Pragma: no-cache");
 header("Cache-Control: no-cache");
 header("Expires: 0");
 // following files need to be included
-require_once("./lib/config_paytm.php");
-require_once("./lib/encdec_paytm.php");
+require_once("./config_paytm.php");
+require_once("./encdec_paytm.php");
 $checkSum = "";
 
 // below code snippet is mandatory, so that no one can use your checksumgeneration url for other purpose .
