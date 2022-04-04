@@ -9,8 +9,3 @@
 # For Offline(Wallet Api) Checksum Utility below are the methods:
   1. getChecksumFromString : For generating the checksum
   2. verifychecksum_eFromStr : For verifing the checksum
-# thethook
-
-# thethook
-# thethook
-# thethook
